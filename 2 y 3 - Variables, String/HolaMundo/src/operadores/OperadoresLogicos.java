@@ -10,7 +10,7 @@ public class OperadoresLogicos {
                 ? "si es verdadero"
                 : "no es falso";
 
-        String texto = "Creando un objeto de la clase String .. que tal!";
+        String texto = "Creando un objeto de la clase String ... que tal!";
         Integer num = 7;
         Number num2 = 10.30;
 
