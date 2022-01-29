@@ -1,24 +1,24 @@
-// Una clase solo puede ser public o default (sin), no privada
-public class Automovil implements Comparable<Automovil> {
-    // Si un atributo es estatico puede ser compartido para todos los objetos
+package umlEjemplo;
+
+public class Automovil {
     private int id;
     private String modelo;
     private String fabricante;
-    private String color = "Azul";
-    private double cilindrada;
-    private int capacidadEstanque = 40;
+    private Color color = Color.GRIS;
+    private Motor motor;
+    private Estanque estanque;
+    private Persona conductor;
+    private Rueda[] ruedas;
 
-    private TipoAutomovil tipo = TipoAutomovil.SEDAN;
+    private TipoAutomovil tipo = TipoAutomovil.COUPE;
 
-    /*************************** ATRIBUTO STATICO -> PERTENECE A LA CLASE ES PARA TODAS LAS INSTANCIAS **************/
-    static Color colorPatente = Color.AMARILLO; // Por default es public, si se pone privado solo se podria usar/modificar en la clase
+    private static Color colorPatente = Color.NARANJO;
+    private static int capacidadEstanqueEstatico = 30;
     private static int ultimoId;
 
     public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
+    public static final int VELOCIDAD_MAXIMA_CIUDAD = 60;
 
-
-
-    /******************************************* CONSTRUCTORES *******************************************/
     public Automovil() {
         this.id = ++Automovil.ultimoId;
     }
@@ -29,10 +29,27 @@ public class Automovil implements Comparable<Automovil> {
         this.fabricante = fabricante;
     }
 
-    public Automovil(String modelo, String fabricante, String color) {
-        this(modelo, fabricante); // Se puede reutilizar llamando al otro Constructor
+    public Automovil(String modelo, String fabricante, Color color) {
+        this(modelo, fabricante);
         this.color = color;
     }
+
+    public Automovil(String modelo, String fabricante, Color color, Motor motor) {
+        this(modelo, fabricante, color);
+        this.motor = motor;
+    }
+
+    public Automovil(String modelo, String fabricante, Color color, Motor motor, Estanque estanque) {
+        this(modelo, fabricante, color, motor);
+        this.estanque = estanque;
+    }
+
+    public Automovil(String modelo, String fabricante, Color color, Motor motor, Estanque estanque, Persona conductor, Rueda[] ruedas) {
+        this(modelo, fabricante, color, motor, estanque);
+        this.conductor = conductor;
+        this.ruedas = ruedas;
+    }
+
 
     /********************************************* GETTERS *******************************************/
     public String getModelo() {
@@ -43,16 +60,8 @@ public class Automovil implements Comparable<Automovil> {
         return this.fabricante;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return this.color;
-    }
-
-    public double getCilintrada() {
-        return this.cilindrada;
-    }
-
-    public int getCapacidadEstanque() {
-        return this.capacidadEstanque;
     }
 
     public static Color getColorPatente() { // Parecido a GET de los atributos
@@ -61,6 +70,14 @@ public class Automovil implements Comparable<Automovil> {
 
     public TipoAutomovil getTipo() {
         return this.tipo;
+    }
+
+    public Automovil(Motor motor) {
+        this.motor = motor;
+    }
+
+    public Estanque getEstanque() {
+        return estanque;
     }
 
     /******************************************* SETTERS *******************************************/
@@ -72,16 +89,8 @@ public class Automovil implements Comparable<Automovil> {
         this.fabricante = fabricante;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
-    }
-
-    public void setCilindrada(double cilindrada) {
-        this.cilindrada = cilindrada;
-    }
-
-    public void setCapacidadEstanque(int capacidadEstanque) {
-        this.capacidadEstanque = capacidadEstanque;
     }
 
     public static void setColorPatente(Color colorPatente) { // Parecido a GET de los atributos
@@ -92,15 +101,15 @@ public class Automovil implements Comparable<Automovil> {
         this.tipo = tipo;
     }
 
-    /******************************************* METODOS *******************************************/
-    public String detalle() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("auto.fabricante = " + this.fabricante + "\n");
-        sb.append("auto.modelo = " + this.modelo + "\n");
-        sb.append("auto.color = " + this.color + "\n");
-        sb.append("auto.cilindrada = " + this.cilindrada + "\n");
-        return sb.toString();
+    public void setMotor(Motor motor) {
+        this.motor = motor;
     }
+
+    public void setEstanque(Estanque estanque) {
+        this.estanque = estanque;
+    }
+
+    /******************************************* METODOS *******************************************/
 
     public String acelerar(int rpm) {
         return "el auto " + this.fabricante + " acelerando a " + rpm + " rpm";
@@ -118,11 +127,11 @@ public class Automovil implements Comparable<Automovil> {
 
     // Esto es sobrecarga de metodos, mismo nombre diferentes tipo en los metodos
     public float calcularConsumo(int km, float porcentajeBencina) {
-        return km/(this.capacidadEstanque * porcentajeBencina);
+        return km/(this.estanque.getCapacidad() * porcentajeBencina);
     }
 
     public float calcularConsumo(int km, int porcentajeBencina) {
-        return km/(this.capacidadEstanque * (porcentajeBencina/100f));
+        return km/(this.estanque.getCapacidad() * (porcentajeBencina/100f));
     }
 
 //    public static float calcularConsumo(int km, int porcentajeBencina) {    NO PUEDO USARLO PORQUE NO DEBE TENER ATRIBUTOS DE LA CLASE DENTRO
@@ -151,15 +160,10 @@ public class Automovil implements Comparable<Automovil> {
                 "modelo='" + this.modelo + '\'' +
                 ", fabricante='" + this.fabricante + '\'' +
                 ", color='" + this.color + '\'' +
-                ", cilindrada=" + this.cilindrada +
-                ", capacidadEstanque=" + this.capacidadEstanque +
+                ", cilindrada=" + this.motor.getCilindrada() +
+                ", capacidadEstanque=" + this.estanque.getCapacidad() +
                 ", colorPatente=" + colorPatente +
                 ", tipo=" + this.tipo.getNombre() +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Automovil a) {
-        return this.fabricante.compareTo(a.fabricante);
     }
 }
