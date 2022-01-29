@@ -21,7 +21,7 @@ public class EjemploAutomovil {
         System.out.println("Kilometros por litro: " + mazda.calcularConsumo(300, 0.6f));
         System.out.println("Kilometros por litro: " + mazda.calcularConsumo(300, 60));
 
-        /**** NISSAN ****/
+        /***************************** COMPARACION ******************************/
         System.out.println("\nCreando Nissan:");
         Automovil nissan = new Automovil("Nissan", "GTR", "Gris");
 
@@ -29,10 +29,5 @@ public class EjemploAutomovil {
 
         System.out.println("son iguales Mazda == Nisan? " + (mazda == nissan) + " -> Tienen distintas referencias");
         System.out.println("son iguales Mazda.equals(Nisan)? " + (mazda.equals(nissan)) + " -> Si tienen los mismos atributos seria true");
-
-        nissan.colorPatente = "Verde";
-        System.out.println("Accediendo a un atributo estatico, se puede modificar en public pero no default y cambia para todos las instancias");
-        System.out.println(nissan.toString());
-        System.out.println(nissan.VELOCIDAD_MAXIMA_CARRETERA);
     }
 }

@@ -8,18 +8,15 @@ public class Automovil {
     private double cilindrada;
     private int capacidadEstanque = 40;
 
+    private TipoAutomovil tipo = TipoAutomovil.SEDAN;
+
     /*************************** ATRIBUTO STATICO -> PERTENECE A LA CLASE ES PARA TODAS LAS INSTANCIAS **************/
-    static String colorPatente = "Naranja"; // Por default es public, si se pone privado solo se podria usar/modificar en la clase
+    static Color colorPatente = Color.AMARILLO; // Por default es public, si se pone privado solo se podria usar/modificar en la clase
     private static int ultimoId;
+
     public static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
 
-    public static String getColorPatente() { // Parecido a GET de los atributos
-        return colorPatente;
-    }
 
-    public static void setColorPatente(String colorPatente) { // Parecido a GET de los atributos
-        Automovil.colorPatente = colorPatente;
-    }
 
     /******************************************* CONSTRUCTORES *******************************************/
     public Automovil() {
@@ -58,6 +55,14 @@ public class Automovil {
         return this.capacidadEstanque;
     }
 
+    public static Color getColorPatente() { // Parecido a GET de los atributos
+        return colorPatente;
+    }
+
+    public TipoAutomovil getTipo() {
+        return this.tipo;
+    }
+
     /******************************************* SETTERS *******************************************/
     public void setModelo(String modelo) {
         this.modelo = modelo;
@@ -77,6 +82,14 @@ public class Automovil {
 
     public void setCapacidadEstanque(int capacidadEstanque) {
         this.capacidadEstanque = capacidadEstanque;
+    }
+
+    public static void setColorPatente(Color colorPatente) { // Parecido a GET de los atributos
+        Automovil.colorPatente = colorPatente;
+    }
+
+    public void setTipo(TipoAutomovil tipo) {
+        this.tipo = tipo;
     }
 
     /******************************************* METODOS *******************************************/
@@ -141,6 +154,7 @@ public class Automovil {
                 ", cilindrada=" + this.cilindrada +
                 ", capacidadEstanque=" + this.capacidadEstanque +
                 ", colorPatente=" + colorPatente +
+                ", tipo=" + this.tipo.getNombre() +
                 '}';
     }
 }
