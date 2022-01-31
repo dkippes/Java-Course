@@ -91,7 +91,7 @@ public class Factura {
             if(item == null){
                 continue;
             }
-            sb.append(item)
+            sb.append(item.toString())
                     .append("\n");
         }
         sb.append("\nGran total: ")
