@@ -67,4 +67,17 @@ public class Alumno extends Persona {
     public String saludar() {
         return "Hola que tal soy alumno";
     }
+
+    public double calcularPromedio() {
+        return notaHistoria + notaCastellano + notaMatematica;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "institucion='" + institucion + '\'' +
+                ", notaMatematica=" + notaMatematica +
+                ", notaCastellano=" + notaCastellano +
+                ", notaHistoria=" + notaHistoria + "\n";
+    }
 }

@@ -1,6 +1,6 @@
 package domain;
 
-public class AlumnoInternacional extends Alumno {
+public final class AlumnoInternacional extends Alumno {
     private String pais;
     private double notaIdiomas;
 
@@ -37,5 +37,18 @@ public class AlumnoInternacional extends Alumno {
     @Override
     public String saludar() {
         return "Hola que tal soy alumno " + super.getNombre() + " de " + this.getPais();
+    }
+
+    @Override
+    public double calcularPromedio() {
+        System.out.println("calcularPromedio " + AlumnoInternacional.class.getCanonicalName());
+        return ((super.calcularPromedio() * 3) + notaIdiomas) / 4;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "pais='" + pais + '\'' +
+                ", notaIdiomas=" + notaIdiomas;
     }
 }

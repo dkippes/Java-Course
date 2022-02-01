@@ -1,6 +1,6 @@
 package domain;
 
-public class Profesor extends Persona {
+public final class Profesor extends Persona {
     private String asignatura;
 
     public Profesor() {
@@ -28,5 +28,11 @@ public class Profesor extends Persona {
     @Override
     public String saludar() {
         return "Hola que tal soy profesor";
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "asignatura='" + asignatura + '\'';
     }
 }
