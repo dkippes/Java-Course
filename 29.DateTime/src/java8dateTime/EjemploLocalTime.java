@@ -1,42 +1,36 @@
 package java8dateTime;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.Month;
-import java.time.format.TextStyle;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.Locale;
 
-public class EjemploLocalDate {
+public class EjemploLocalTime {
     public static void main(String[] args) {
-        LocalDate fechaActual = LocalDate.now();
-        Month mes = fechaActual.getMonth();
-        System.out.println("fechaActual = " + fechaActual);
-        System.out.println("Mes español: " + mes.getDisplayName(TextStyle.FULL, new Locale("es", "ES")));
+        LocalTime ahora = LocalTime.now();
+        System.out.println(ahora);
+        System.out.println("ahora.getHour() = " + ahora.getHour());
+
+        LocalTime seisConTreinta = LocalTime.of(6, 30);
+        System.out.println("seisConTreinta = " + seisConTreinta);
         
-        fechaActual = LocalDate.of(2020, 01, 11);
-        System.out.println("fechaActual = " + fechaActual);
+        seisConTreinta = LocalTime.parse("06:30");
+        System.out.println("seisConTreinta = " + seisConTreinta);
 
-        fechaActual = LocalDate.parse("2020-01-01");
-        System.out.println("fechaActual = " + fechaActual);
+        LocalTime siesteConTreinta = LocalTime.of(6, 30).plus(1, ChronoUnit.HOURS);
+        System.out.println("siesteConTreinta = " + siesteConTreinta);
 
-        LocalDate diaDeManiana = LocalDate.now().plusDays(1);
-        System.out.println("diaDeManiana = " + diaDeManiana);
+        boolean esAnterior = LocalTime.of(6, 30).isBefore(LocalTime.parse("07:30"));
+        System.out.println("esAnterior = " + esAnterior);
 
-        LocalDate mesAnteriorMismoDia = LocalDate.now().minus(1, ChronoUnit.MONTHS);
-        System.out.println("mesAnteriorMismoDia = " + mesAnteriorMismoDia);
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("hh:mm:ss a"); // AM - PM
+        String ahoraFormateado = ahora.format(df);
+        System.out.println("ahoraFormateado = " + ahoraFormateado);
 
-        DayOfWeek miercoles = LocalDate.parse("2020-11-01").getDayOfWeek();
-        System.out.println("miercoles = " + miercoles);
+        LocalTime max = LocalTime.MAX;
+        LocalTime min = LocalTime.MIN;
+        System.out.println("max = " + max);
+        System.out.println("min = " + min);
 
-        boolean esBisiesto = LocalDate.now().isLeapYear();
-        System.out.println("esBisiesto = " + esBisiesto);
 
-        boolean esAntes = LocalDate.now().isBefore(LocalDate.parse("2020-11-10"));
-        System.out.println("esAntes = " + esAntes);
-        
-        boolean esDespues = LocalDate.now().isAfter(LocalDate.now().minusDays(1));
-        System.out.println("esDespues = " + esDespues);
-        
     }
 }
