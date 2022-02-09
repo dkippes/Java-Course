@@ -15,4 +15,3 @@ public class EjemploPeriod {
                 fecha1, fecha2, periodo.getYears(), periodo.getMonths(), periodo.getDays());
     }
 }
-|f´+{}
