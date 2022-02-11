@@ -3,7 +3,7 @@ package compositePattern.ejemplo;
 import compositePattern.Archivo;
 import compositePattern.Directorio;
 
-public class EjemploComposite {
+public class EjemploCompositeBuscar {
     public static void main(String[] args) {
         Directorio doc = new Directorio("Documentos");
         Directorio java = new Directorio("Java");
@@ -16,6 +16,16 @@ public class EjemploComposite {
         doc.addComponente(new Archivo("cd.docx"))
                 .addComponente(new Archivo("logo.jpg"));
 
-        System.out.println(doc.mostrar(0));
+        boolean encontrado = doc.buscar("patron-composite.docx");
+        System.out.println("encontrado = " + encontrado);
+        
+        encontrado = doc.buscar("Api Stream");
+        System.out.println("encontrado = " + encontrado);
+        
+        encontrado = doc.buscar("Nada.txt");
+        System.out.println("encontrado = " + encontrado);
+
+        encontrado = doc.buscar("Carpeta Vacia");
+        System.out.println("encontrado = " + encontrado);
     }
 }

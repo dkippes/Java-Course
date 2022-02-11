@@ -6,7 +6,12 @@ public class Archivo extends Componente {
     }
 
     @Override
-    public String mostrar() {
-        return nombre;
+    public String mostrar(int nivel) {
+        return "\t".repeat(nivel) + nombre;
+    }
+
+    @Override
+    public boolean buscar(String nombre) {
+        return this.nombre.equalsIgnoreCase(nombre);
     }
 }

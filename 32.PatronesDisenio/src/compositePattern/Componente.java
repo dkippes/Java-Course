@@ -13,7 +13,9 @@ abstract public class Componente {
         return nombre;
     }
 
-    abstract public String mostrar();
+    abstract public String mostrar(int nivel);
+
+    abstract public boolean buscar(String nombre);
 
     @Override
     public boolean equals(Object o) {
