@@ -10,45 +10,34 @@ import java.sql.*;
 import java.util.Date;
 
 public class EjemploJdbc {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
+        Connection conn = ConexionBaseDatos.getInstance();
 
+        Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
+        if (conn.getAutoCommit()) {
+            conn.setAutoCommit(false);
+        }
 
-
-        try (
-                Connection conn = ConexionBaseDatos.getInstance();
-        ) {
-            Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
-            System.out.println("============== listar ==========");
-            repositorio.listar().forEach(System.out::println);
-
-            System.out.println("============== obtener por id ==========");
-            System.out.println(repositorio.porId(2L));
-
-            System.out.println("============== insertar nuevo producto ==========");
+        try {
+            System.out.println("============== insertar producto con sku duplicado ==========");
             Producto producto = new Producto();
-            producto.setNombre("Teclado Mecanico");
-            producto.setPrecio(500);
+            producto.setNombre("Teclado Mecanico ASC");
+            producto.setPrecio(1500);
             producto.setFechaRegistro(new Date());
             Categoria categoria = new Categoria();
             categoria.setId(3L);
             producto.setCategoria(categoria);
+            producto.setSku("abcd");
             repositorio.guardar(producto);
             System.out.println("Producto guardado con exito!");
-            repositorio.listar().forEach(System.out::println);
 
-            System.out.println("============== update producto ==========");
-            producto.setId(2L);
-            producto.setNombre("Teclado Rosa de ojalata");
-            producto.setCategoria(categoria);
-            repositorio.guardar(producto);
             repositorio.listar().forEach(System.out::println);
-
-            System.out.println("============== eliminar producto ==========");
-            // repositorio.eliminar(1L);
-            repositorio.listar().forEach(System.out::println);
-
+            conn.commit();
         } catch (SQLException e) {
+            conn.rollback();
             e.printStackTrace();
         }
+
+
     }
 }

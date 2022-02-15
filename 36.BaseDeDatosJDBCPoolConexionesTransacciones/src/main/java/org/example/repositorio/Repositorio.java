@@ -6,6 +6,6 @@ import java.util.List;
 public interface Repositorio<T> {
     List<T> listar() throws SQLException;
     T porId(Long id) throws SQLException;
-    void guardar(T t) throws SQLException; // Funciona como modificar
+    T guardar(T t) throws SQLException; // Funciona como modificar
     void eliminar(Long id) throws SQLException;
 }
