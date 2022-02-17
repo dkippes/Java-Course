@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: junit5app.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 68, Failures: 2, Errors: 0, Skipped: 10, Time elapsed: 4.165 s <<< FAILURE! - in junit5app.models.CuentaTest
+testDebitoCuentaCsvFileSource2{String, String, String, String}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at junit5app.models.CuentaTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:289)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at junit5app.models.CuentaTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:289)
+

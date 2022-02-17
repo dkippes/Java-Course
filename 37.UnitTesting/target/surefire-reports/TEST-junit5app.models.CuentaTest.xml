@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="junit5app.models.CuentaTest" time="4.165" tests="68" errors="0" skipped="10" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Master Completo en Java\37.UnitTesting\target\test-classes;D:\Master Completo en Java\37.UnitTesting\target\classes;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Diego\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Diego\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Diego\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Diego\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Diego\AppData\Local\Temp\surefire17627758892180632021\surefirebooter11037429998536433655.jar C:\Users\Diego\AppData\Local\Temp\surefire17627758892180632021 2022-02-17T01-49-10_780-jvmRun1 surefire6742550853749955342tmp surefire_06657501470735881866tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Master Completo en Java\37.UnitTesting\target\test-classes;D:\Master Completo en Java\37.UnitTesting\target\classes;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Diego\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Diego\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Diego\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\Diego\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\Diego\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Diego"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Master Completo en Java\37.UnitTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Diego\AppData\Local\Temp\surefire17627758892180632021\surefirebooter11037429998536433655.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="Diego"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Diego\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Diego\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="D:\Master Completo en Java\37.UnitTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;E:\Calibre\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Diego\AppData\Local\Microsoft\WindowsApps;C:\Users\Diego\AppData\Roaming\npm;C:\Users\Diego\AppData\Local\Programs\Microsoft VS Code\bin;D:\IntelliJ IDEA 2021.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testCreditoCuenta{String}[1]" classname="junit5app.models.CuentaTest" time="0.02"/>
+  <testcase name="testCreditoCuenta{String}[2]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testCreditoCuenta{String}[3]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testCreditoCuenta{String}[4]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testCreditoCuenta{String}[5]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testCreditoCuenta{String}[6]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[1]" classname="junit5app.models.CuentaTest" time="0.004"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[2]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[3]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[4]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[5]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvSource{String, String}[6]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[1]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[2]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[3]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[4]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[5]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[6]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource{String}[7]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDineroInsuficienteExceptionCuenta" classname="junit5app.models.CuentaTest" time="0.002"/>
+  <testcase name="testSaldoCuentaDev" classname="junit5app.models.CuentaTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at junit5app.models.CuentaTest.testSaldoCuentaDev(CuentaTest.java:243)
+</skipped>
+    <system-out><![CDATA[Iniciando el metodo
+Finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testTransferirDineroCuentas" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testSaldoCuenta" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testPruebaTimeOut" classname="junit5app.models.CuentaTest" time="4.008"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[1]" classname="junit5app.models.CuentaTest" time="0.001">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at junit5app.models.CuentaTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:289)
+]]></failure>
+    <system-out><![CDATA[Iniciando el metodo
+Finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[2]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[3]" classname="junit5app.models.CuentaTest" time="0.001">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at junit5app.models.CuentaTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:289)
+]]></failure>
+    <system-out><![CDATA[Iniciando el metodo
+Finalizando el metodo de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[4]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[5]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaCsvFileSource2{String, String, String, String}[6]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testSaldoCuentaDev2" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testRelacionBancoCuentas" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testReferenciaCuenta" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[1]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[2]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[3]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[4]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[5]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaMethodSource{String}[6]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[1]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[2]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[3]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[4]" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testDebitoCuentaRepetir{RepetitionInfo}[5]" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testDebitoConID{TestInfo, TestReporter}" classname="junit5app.models.CuentaTest" time="0.001"/>
+  <testcase name="testNombreCuenta" classname="junit5app.models.CuentaTest" time="0"/>
+  <testcase name="testProcesadores" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0">
+    <skipped message="Environment variable [NUMBER_OF_PROCESSORS] with value [12] does not match regular expression [8]"/>
+  </testcase>
+  <testcase name="testEnv" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0">
+    <skipped message="Environment variable [ENVIROMENT] does not exist"/>
+  </testcase>
+  <testcase name="testJavaHome" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0">
+    <skipped message="Environment variable [JAVA_HOME] does not exist"/>
+  </testcase>
+  <testcase name="imprimirVariablesAmbiente[1]" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0.003"/>
+  <testcase name="imprimirVariablesAmbiente[2]" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0.004"/>
+  <testcase name="imprimirVariablesAmbiente[3]" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0.002"/>
+  <testcase name="imprimirVariablesAmbiente[4]" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0.003"/>
+  <testcase name="imprimirVariablesAmbiente[5]" classname="junit5app.models.CuentaTest$VariablesDeAmbienteTest" time="0.003"/>
+  <testcase name="testCustomENV" classname="junit5app.models.CuentaTest$SystemPropertiesTest" time="0">
+    <skipped message="System property [ENV] does not exist"/>
+  </testcase>
+  <testcase name="testNO64" classname="junit5app.models.CuentaTest$SystemPropertiesTest" time="0">
+    <skipped message="System property [os.arch] with value [amd64] matches regular expression [.*64.*]"/>
+  </testcase>
+  <testcase name="testJavaVersion" classname="junit5app.models.CuentaTest$SystemPropertiesTest" time="0"/>
+  <testcase name="testImprimirSystemProperties[1]" classname="junit5app.models.CuentaTest$SystemPropertiesTest" time="0.005"/>
+  <testcase name="testImprimirSystemProperties[2]" classname="junit5app.models.CuentaTest$SystemPropertiesTest" time="0.004"/>
+  <testcase name="testImprimirSystemProperties[3]" classname="junit5app.models.CuentaTest$SystemPropertiesTest" time="0.005"/>
+  <testcase name="testSoloJdk8" classname="junit5app.models.CuentaTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 16.0.1"/>
+  </testcase>
+  <testcase name="testSoloJdk16" classname="junit5app.models.CuentaTest$JavaVersionTest" time="0"/>
+  <testcase name="testNoJdk16" classname="junit5app.models.CuentaTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 16.0.1"/>
+  </testcase>
+  <testcase name="testNoWindows" classname="junit5app.models.CuentaTest$SistemaOperativosTests" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloLinuxMac" classname="junit5app.models.CuentaTest$SistemaOperativosTests" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloWindows[1]" classname="junit5app.models.CuentaTest$SistemaOperativosTests" time="0"/>
+  <testcase name="testSoloWindows[2]" classname="junit5app.models.CuentaTest$SistemaOperativosTests" time="0"/>
+  <testcase name="testSoloWindows[3]" classname="junit5app.models.CuentaTest$SistemaOperativosTests" time="0"/>
+</testsuite>
