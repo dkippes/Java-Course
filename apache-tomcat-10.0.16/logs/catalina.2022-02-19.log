@@ -306,3 +306,79 @@
 19-Feb-2022 12:53:52.476 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
 19-Feb-2022 12:53:52.520 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
 19-Feb-2022 12:53:52.547 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [28] ms
+19-Feb-2022 12:56:15.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.16
+19-Feb-2022 12:56:15.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Jan 15 2022 13:19:56 UTC
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.16.0
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-16.0.1
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       16.0.1+9-24
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\Master Completo en Java\apache-tomcat-10.0.16
+19-Feb-2022 12:56:15.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\Master Completo en Java\apache-tomcat-10.0.16
+19-Feb-2022 12:56:15.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Feb-2022 12:56:15.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+19-Feb-2022 12:56:15.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+19-Feb-2022 12:56:15.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Feb-2022 12:56:15.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Feb-2022 12:56:15.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\Master Completo en Java\apache-tomcat-10.0.16\conf\logging.properties
+19-Feb-2022 12:56:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Feb-2022 12:56:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+19-Feb-2022 12:56:15.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Feb-2022 12:56:15.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+19-Feb-2022 12:56:15.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\Master Completo en Java\apache-tomcat-10.0.16
+19-Feb-2022 12:56:15.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\Master Completo en Java\apache-tomcat-10.0.16
+19-Feb-2022 12:56:15.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\Master Completo en Java\apache-tomcat-10.0.16\temp
+19-Feb-2022 12:56:15.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+19-Feb-2022 12:56:15.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+19-Feb-2022 12:56:15.516 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+19-Feb-2022 12:56:15.670 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+19-Feb-2022 12:56:15.685 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [292] milliseconds
+19-Feb-2022 12:56:15.711 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+19-Feb-2022 12:56:15.712 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.16]
+19-Feb-2022 12:56:15.722 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 12:56:15.901 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [178] ms
+19-Feb-2022 12:56:15.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\docs] de la aplicación web
+19-Feb-2022 12:56:15.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\docs] has finished in [19] ms
+19-Feb-2022 12:56:15.920 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\examples] de la aplicación web
+19-Feb-2022 12:56:16.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\examples] has finished in [223] ms
+19-Feb-2022 12:56:16.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\host-manager] de la aplicación web
+19-Feb-2022 12:56:16.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\host-manager] has finished in [25] ms
+19-Feb-2022 12:56:16.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\manager] de la aplicación web
+19-Feb-2022 12:56:16.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\manager] has finished in [20] ms
+19-Feb-2022 12:56:16.188 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\ROOT] de la aplicación web
+19-Feb-2022 12:56:16.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\ROOT] has finished in [13] ms
+19-Feb-2022 12:56:16.204 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Feb-2022 12:56:16.245 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [559] milliseconds
+19-Feb-2022 12:56:24.505 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 12:56:24.552 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 12:56:24.581 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [29] ms
+19-Feb-2022 12:57:36.168 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 12:57:36.212 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 12:57:36.244 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [32] ms
+19-Feb-2022 12:58:32.337 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 12:58:32.381 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 12:58:32.412 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [30] ms
+19-Feb-2022 12:59:32.347 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 12:59:32.390 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 12:59:32.420 INFO [http-nio-8080-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [29] ms
+19-Feb-2022 13:01:54.417 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 13:01:54.464 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 13:01:54.495 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [32] ms
+19-Feb-2022 13:02:36.051 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 13:02:36.108 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 13:02:36.136 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [28] ms
+19-Feb-2022 13:03:02.682 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 13:03:02.742 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 13:03:02.771 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [28] ms
+19-Feb-2022 13:06:55.535 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 13:06:55.583 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 13:06:55.609 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [25] ms
+19-Feb-2022 13:13:14.936 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 13:13:14.988 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 13:13:15.017 INFO [http-nio-8080-exec-47] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [29] ms
+19-Feb-2022 13:15:40.863 INFO [http-nio-8080-exec-63] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/webapp]
+19-Feb-2022 13:15:40.917 INFO [http-nio-8080-exec-63] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] de la aplicación web
+19-Feb-2022 13:15:40.947 INFO [http-nio-8080-exec-63] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war] has finished in [31] ms
