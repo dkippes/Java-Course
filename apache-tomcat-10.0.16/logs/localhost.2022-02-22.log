@@ -6,3 +6,9 @@
 22-Feb-2022 00:50:12.809 INFO [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicacion
 22-Feb-2022 00:50:15.013 INFO [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Inicializando el request
 22-Feb-2022 00:50:15.013 INFO [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+22-Feb-2022 01:01:05.490 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicacion
+22-Feb-2022 01:01:05.761 INFO [http-nio-8080-exec-46] org.apache.catalina.core.ApplicationContext.log Inicializando la aplicacion
+22-Feb-2022 01:01:09.829 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Inicializando el request
+22-Feb-2022 01:01:09.830 INFO [http-nio-8080-exec-53] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+22-Feb-2022 01:01:12.086 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Inicializando el request
+22-Feb-2022 01:01:12.090 INFO [http-nio-8080-exec-47] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
