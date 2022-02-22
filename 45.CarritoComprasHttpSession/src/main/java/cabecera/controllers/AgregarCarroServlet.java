@@ -1,5 +1,6 @@
 package cabecera.controllers;
 
+import cabecera.models.Carro;
 import cabecera.models.ItemCarro;
 import cabecera.models.Producto;
 import cabecera.services.ProductoService;
@@ -9,6 +10,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 import java.util.Optional;
@@ -23,6 +25,16 @@ public class AgregarCarroServlet extends HttpServlet {
         Optional<Producto> producto = service.porId(id);
         if (producto.isPresent()) {
             ItemCarro item = new ItemCarro(1, producto.get());
+            HttpSession session = req.getSession();
+            Carro carro;
+            if (session.getAttribute("carro") == null) {
+                carro = new Carro();
+                session.setAttribute("carro", carro);
+            } else {
+                carro = (Carro) session.getAttribute("carro");
+            }
+            carro.addItemCarro(item);
         }
+        resp.sendRedirect(req.getContextPath() + "/ver-carro");
     }
 }

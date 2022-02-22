@@ -1,6 +1,10 @@
+cabecera\models\Carro.class
 cabecera\models\Producto.class
 cabecera\services\LoginService.class
+cabecera\controllers\AgregarCarroServlet.class
+cabecera\models\ItemCarro.class
 cabecera\controllers\LoginServlet.class
+cabecera\controllers\VerCarroServlet.class
 cabecera\services\ProductoService.class
 cabecera\services\ProductoServiceImpl.class
 cabecera\controllers\LogoutServlet.class
