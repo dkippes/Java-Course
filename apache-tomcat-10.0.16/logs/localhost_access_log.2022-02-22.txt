@@ -50,3 +50,12 @@
 0:0:0:0:0:0:0:1 - - [22/Feb/2022:13:38:03 -0300] "GET /webapp/index.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [22/Feb/2022:13:38:04 -0300] "GET /webapp/productos.html HTTP/1.1" 200 1692
 0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:27:39 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - admin [22/Feb/2022:18:43:30 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:43:36 -0300] "GET /webapp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:43:36 -0300] "GET /webapp/ HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:43:38 -0300] "GET /webapp/ HTTP/1.1" 200 370
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:43:41 -0300] "GET /webapp/productos.html HTTP/1.1" 200 1969
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:44:04 -0300] "GET /webapp/login.html HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:44:06 -0300] "GET /webapp/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:44:06 -0300] "GET /webapp/login.html HTTP/1.1" 200 627
+0:0:0:0:0:0:0:1 - - [22/Feb/2022:18:44:11 -0300] "GET /webapp/productos.html HTTP/1.1" 200 1113
