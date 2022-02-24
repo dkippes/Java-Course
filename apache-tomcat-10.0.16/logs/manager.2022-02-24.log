@@ -18,3 +18,13 @@
 24-Feb-2022 00:27:39.163 INFO [http-nio-8080-exec-136] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
 24-Feb-2022 00:28:24.456 INFO [http-nio-8080-exec-146] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
 24-Feb-2022 00:28:24.456 INFO [http-nio-8080-exec-146] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
+24-Feb-2022 02:05:53.240 INFO [http-nio-8080-exec-153] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+24-Feb-2022 02:05:53.240 INFO [http-nio-8080-exec-153] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
+24-Feb-2022 02:08:13.365 INFO [http-nio-8080-exec-169] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+24-Feb-2022 02:08:13.365 INFO [http-nio-8080-exec-169] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
+24-Feb-2022 02:11:32.140 INFO [http-nio-8080-exec-182] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+24-Feb-2022 02:11:32.140 INFO [http-nio-8080-exec-182] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
+24-Feb-2022 02:12:07.224 INFO [http-nio-8080-exec-183] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+24-Feb-2022 02:12:07.224 INFO [http-nio-8080-exec-183] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
+24-Feb-2022 02:13:16.023 INFO [http-nio-8080-exec-191] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+24-Feb-2022 02:13:16.023 INFO [http-nio-8080-exec-191] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to D:\Master Completo en Java\apache-tomcat-10.0.16\webapps\webapp.war.tmp
