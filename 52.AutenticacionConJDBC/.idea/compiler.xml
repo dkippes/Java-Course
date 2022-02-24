@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="46.Listeners" />
+        <module name="47.FilterHTTP" />
+        <module name="49.CRUD-JDBC" />
+        <module name="52.AutenticacionConJDBC" />
+        <module name="42.CabecerasHTTPStatus" />
+        <module name="45.CarritoComprasHttpSession" />
+        <module name="50.JSTL" />
+        <module name="43.Cookies" />
+        <module name="48.JDBC-Servlet" />
+        <module name="51.Layout-CSS-Bootstrap" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
