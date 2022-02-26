@@ -2674,3 +2674,4 @@ org.jboss.weld.exceptions.DeploymentException: WELD-001443: Pseudo scoped bean h
 25-Feb-2022 23:28:47.667 INFO [http-nio-8080-exec-144] cabecera.interceptors.LoggingInterceptor.logging  ***** saliendo de la invocacion del metodo porId
 25-Feb-2022 23:28:47.668 INFO [http-nio-8080-exec-144] cabecera.configs.ProducerResources.close Cerrando la conexion a la bbdd mysql
 25-Feb-2022 23:28:47.668 INFO [http-nio-8080-exec-144] cabecera.repositories.ProductoRepositoryJdbcImpl.destruir Destruyendo el beans cabecera.repositories.ProductoRepositoryJdbcImpl
+25-Feb-2022 23:59:26.736 INFO [Catalina-utility-2] cabecera.models.Carro.destruir Destruyendo el carro compra
