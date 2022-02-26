@@ -1,0 +1,13 @@
+127.0.0.1 - admin [25/Feb/2022:01:56:25 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 77
+127.0.0.1 - admin [25/Feb/2022:01:56:33 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:01:56:35 -0300] "GET /webapp/ HTTP/1.1" 200 2805
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:01:56:36 -0300] "GET /webapp/productos.html HTTP/1.1" 200 7570
+127.0.0.1 - admin [25/Feb/2022:02:11:53 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 110
+127.0.0.1 - admin [25/Feb/2022:02:18:27 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:02:18:33 -0300] "GET /webapp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:02:18:33 -0300] "GET /webapp/ HTTP/1.1" 200 2805
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:02:18:34 -0300] "GET /webapp/productos.html HTTP/1.1" 200 7570
+127.0.0.1 - admin [25/Feb/2022:02:20:05 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:02:20:10 -0300] "GET /webapp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:02:20:10 -0300] "GET /webapp/ HTTP/1.1" 200 2805
+0:0:0:0:0:0:0:1 - - [25/Feb/2022:02:20:11 -0300] "GET /webapp/productos.html HTTP/1.1" 200 7570
