@@ -1,6 +1,5 @@
 package hibernateExample;
 
-import com.mysql.cj.log.Log;
 import hibernateExample.dominio.ClienteDTO;
 import hibernateExample.entity.Cliente;
 import hibernateExample.util.JpaUtil;
@@ -8,7 +7,6 @@ import jakarta.persistence.EntityManager;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.jar.JarEntry;
 
 public class HibernateQL {
     public static void main(String[] args) {
