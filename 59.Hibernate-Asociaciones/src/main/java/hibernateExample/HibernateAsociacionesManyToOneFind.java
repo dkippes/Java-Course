@@ -5,13 +5,13 @@ import hibernateExample.entity.Factura;
 import hibernateExample.util.JpaUtil;
 import jakarta.persistence.EntityManager;
 
-public class HibernateAsociacionesManyToOne {
+public class HibernateAsociacionesManyToOneFind {
     public static void main(String[] args) {
         EntityManager em = JpaUtil.getEntityManager();
 
         try {
             em.getTransaction().begin();
-            Cliente cliente = new Cliente("Cata", "Edi");
+            Cliente cliente = em.find(Cliente.class, 1L);
             cliente.setFormaPago("credito");
             em.persist(cliente);
 

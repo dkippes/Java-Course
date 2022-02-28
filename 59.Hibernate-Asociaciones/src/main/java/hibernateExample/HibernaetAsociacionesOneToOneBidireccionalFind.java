@@ -1,25 +1,26 @@
 package hibernateExample;
 
 import hibernateExample.entity.Cliente;
-import hibernateExample.entity.Factura;
+import hibernateExample.entity.ClienteDetalle;
 import hibernateExample.util.JpaUtil;
 import jakarta.persistence.EntityManager;
 
-public class HibernateAsociacionesManyToOne {
+public class HibernaetAsociacionesOneToOneBidireccionalFind {
     public static void main(String[] args) {
         EntityManager em = JpaUtil.getEntityManager();
 
         try {
             em.getTransaction().begin();
-            Cliente cliente = new Cliente("Cata", "Edi");
-            cliente.setFormaPago("credito");
+            Cliente cliente = em.find(Cliente.class, 1L);
+
+            ClienteDetalle detalle = new ClienteDetalle(true, 5000L);
+
+            cliente.addDetalle(detalle);
+
             em.persist(cliente);
-
-            Factura factura = new Factura("compra de oficina", 100L);
-            factura.setCliente(cliente);
-            em.persist(factura);
-
             em.getTransaction().commit();
+
+            System.out.println(cliente);
         } catch (Exception e) {
             em.getTransaction().rollback();
         } finally {
