@@ -1,0 +1,4 @@
+ejb\controllers\EjemploServletLocal.class
+ejb\service\ServiceEjbLocal.class
+ejb\service\ServiceEjb.class
+ejb\models\Producto.class

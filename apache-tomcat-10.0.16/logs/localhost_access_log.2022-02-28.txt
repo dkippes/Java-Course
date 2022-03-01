@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:13:53 -0300] "GET /webapp HTTP/1.1" 404 694
+127.0.0.1 - admin [28/Feb/2022:23:13:54 -0300] "PUT /manager/text/deploy?path=%2Fwebapp&update=true HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:13:59 -0300] "GET /webapp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:00 -0300] "GET /webapp/ HTTP/1.1" 200 2805
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:07 -0300] "GET /webapp/productos.html HTTP/1.1" 200 3726
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:12 -0300] "GET /webapp/login.html HTTP/1.1" 200 3019
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:16 -0300] "POST /webapp/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:16 -0300] "GET /webapp/login.html HTTP/1.1" 200 293
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:26 -0300] "GET /webapp/index.jsp HTTP/1.1" 200 2806
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:14:27 -0300] "GET /webapp/productos.html HTTP/1.1" 200 7571
+0:0:0:0:0:0:0:1 - - [28/Feb/2022:23:18:39 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
