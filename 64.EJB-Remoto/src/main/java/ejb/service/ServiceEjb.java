@@ -1,18 +1,13 @@
 package ejb.service;
 
 import ejb.models.Producto;
-import jakarta.ejb.Stateful;
 import jakarta.ejb.Stateless;
-import jakarta.enterprise.context.RequestScoped;
 
 import java.util.ArrayList;
 import java.util.List;
 
-// @RequestScoped // Con esto podemos manejar Stateful
-@Stateless // Por defecto es un local bean - Siempre es el mismo bean porque es stateless
-public class ServiceEjb implements ServiceEjbLocal {
-    // Stateless es una instancia para todos
-    // Stateful para cada request tiene una instancia distinta
+@Stateless
+public class ServiceEjb implements ServiceEjbRemote {
 
     private int contador;
 

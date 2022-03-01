@@ -516,8 +516,5 @@
         <deployment name="webapp.war" runtime-name="webapp.war">
             <content sha1="1bbed4cc258e7630fd2ec5a88809227075865f0c"/>
         </deployment>
-        <deployment name="webapp-1.0-SNAPSHOT.jar" runtime-name="webapp-1.0-SNAPSHOT.jar">
-            <content sha1="934c6b45798a797c71b4b02af51ea6b1528aa204"/>
-        </deployment>
     </deployments>
 </server>

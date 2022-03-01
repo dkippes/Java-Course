@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67238d66-a263-4dfe-afc4-39e091b625d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../64.EJB-Remote-App/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../64.EJB-Remote-App/src/main/java/remotoApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../64.EJB-Remote-App/src/main/resources/jndi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/controllers/EjemploServletLocal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/models/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/service/ServiceEjb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/service/ServiceEjb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/service/ServiceEjbLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/service/ServiceEjbRemote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ejb/controllers/EjemploServletLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ejb/models/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ejb/models/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ejb/service/ServiceEjb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ejb/service/ServiceEjb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ejb/service/ServiceEjbLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-ejb.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-ejb/WEB-INF/classes/ejb/controllers/EjemploServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-ejb/WEB-INF/classes/ejb/service/ServiceEjb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-ejb/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ejb/controllers/EjemploServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ejb/controllers/EjemploServletInitialContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ejb/controllers/EjemploServletLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ejb/models/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ejb/service/ServiceEjb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ejb/service/ServiceEjbLocal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/index1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/index2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/configuration/standalone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/configuration/standalone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/configuration/standalone_xml_history/standalone.boot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/configuration/standalone_xml_history/standalone.boot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/configuration/standalone_xml_history/standalone.last.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/configuration/standalone_xml_history/standalone.last.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/log/server.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25lltyxacxnaxnClMdDoyrKgWFc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="webapp [wildfly:deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="wildfly:deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67238d66-a263-4dfe-afc4-39e091b625d7" name="Changes" comment="" />
+      <created>1646109777805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646109777805</updated>
+      <workItem from="1646109779324" duration="217000" />
+      <workItem from="1646165968106" duration="1385000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
