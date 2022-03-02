@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webapp-ear-war:war exploded">
+    <output-path>$PROJECT_DIR$/webapp-ear-war/target/webapp-ear-war</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>webapp-ear-war</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webapp-ear-war" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/webapp-ear-war/target/webapp-ear-war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webapp-ear-war/web/Web" />
+    </root>
+  </artifact>
+</component>

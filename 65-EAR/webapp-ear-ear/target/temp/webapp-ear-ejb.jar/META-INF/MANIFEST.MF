@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: Maven EJB Plugin 3.1.0
+Build-Jdk-Spec: 16
+Class-Path: mysql-mysql-connector-java-8.0.27.jar com.google.protobuf-pr
+ otobuf-java-3.11.4.jar
+

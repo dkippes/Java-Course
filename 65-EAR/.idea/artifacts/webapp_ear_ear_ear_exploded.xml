@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="webapp-ear-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/webapp-ear-ear/target/webapp-ear-ear</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>webapp-ear-ear</module>
+        <packaging>ear</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="webapp-ear-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/webapp-ear-ear/target/webapp-ear-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="webapp-ear-ejb.jar">
+        <element id="module-output" name="webapp-ear-ejb" />
+      </element>
+      <element id="archive" name="webapp-ear-war.war">
+        <element id="artifact" artifact-name="webapp-ear-war:war exploded" />
+      </element>
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar" output-file-name="mysql-mysql-connector-java-8.0.27.jar" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" output-file-name="com.google.protobuf-protobuf-java-3.11.4.jar" />
+    </root>
+  </artifact>
+</component>

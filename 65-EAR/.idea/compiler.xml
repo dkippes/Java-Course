@@ -6,9 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="63.EJB-Stateless-Statefull" />
-        <module name="webapp-ejb" />
+        <module name="webapp-ear-ejb" />
+        <module name="webapp-ear-ear" />
+        <module name="webapp-ear-war" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-ear-ear" target="16" />
+      <module name="webapp-ear-ejb" target="16" />
+      <module name="webapp-ear-war" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>

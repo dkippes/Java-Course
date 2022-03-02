@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webapp-ear-war:war">
+    <output-path>$PROJECT_DIR$/webapp-ear-war/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>webapp-ear-war</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="webapp-ear-war.war">
+      <element id="artifact" artifact-name="webapp-ear-war:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,6 @@
+ejb\repositories\UsuarioRepository.class
+ejb\entities\Usuario.class
+ejb\services\UsuarioService.class
+ejb\services\UsuarioServiceImpl.class
+ejb\repositories\UsuarioRepositoryImpl.class
+ejb\ProducerResources.class
