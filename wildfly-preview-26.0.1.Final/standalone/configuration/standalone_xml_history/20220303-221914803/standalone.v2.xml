@@ -513,14 +513,14 @@
         <deployment name="webapp-ejb.war" runtime-name="webapp-ejb.war">
             <content sha1="4f89d066c363301d1398d91c13badb42b8114ed0"/>
         </deployment>
+        <deployment name="webapp.war" runtime-name="webapp.war">
+            <content sha1="1bbed4cc258e7630fd2ec5a88809227075865f0c"/>
+        </deployment>
         <deployment name="webapp-1.0-SNAPSHOT.jar" runtime-name="webapp-1.0-SNAPSHOT.jar">
             <content sha1="934c6b45798a797c71b4b02af51ea6b1528aa204"/>
         </deployment>
         <deployment name="67.JSF3.war" runtime-name="67.JSF3.war">
-            <content sha1="dd75b9e2bfab81a1868a2de050389a93c7911c48"/>
-        </deployment>
-        <deployment name="webapp.war" runtime-name="webapp.war">
-            <content sha1="59c6ff4f16b505fa73e446e6d7186669e2b8ccb0"/>
+            <content sha1="41e1011ce9ccc6552fa3c8cf8f568159697fa35d"/>
         </deployment>
     </deployments>
 </server>

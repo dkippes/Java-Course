@@ -520,7 +520,7 @@
             <content sha1="dd75b9e2bfab81a1868a2de050389a93c7911c48"/>
         </deployment>
         <deployment name="webapp.war" runtime-name="webapp.war">
-            <content sha1="59c6ff4f16b505fa73e446e6d7186669e2b8ccb0"/>
+            <content sha1="2b64c72292d5ea15fe065ed1c2b5b97d253f8223"/>
         </deployment>
     </deployments>
 </server>
