@@ -15,11 +15,28 @@ public class ProductoRepositoryImpl implements CrudRepository<Producto> {
 
     @Override
     public List<Producto> listar() {
-        return em.createQuery("SELECT p FROM Producto p", Producto.class).getResultList();
+        return em.createQuery("SELECT p FROM Producto p LEFT OUTER JOIN p.categoria", Producto.class).getResultList();
     }
 
     @Override
     public Producto porId(Long id) {
-        return em.find(Producto.class, id);
+        return em.createQuery("SELECT p FROM Producto p LEFT OUTER JOIN p.categoria WHERE p.id=:id", Producto.class)
+                .setParameter("id", id)
+                .getSingleResult();
+    }
+
+    @Override
+    public void guardar(Producto producto) {
+        if (producto.getId() != null && producto.getId() > 0) {
+            em.persist(producto);
+        } else {
+            em.merge(producto);
+        }
+    }
+
+    @Override
+    public void eliminar(Long id) {
+        Producto producto = porId(id);
+        em.remove(producto);
     }
 }
