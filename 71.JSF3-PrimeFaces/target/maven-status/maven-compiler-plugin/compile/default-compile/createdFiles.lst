@@ -1,0 +1,12 @@
+jsf3\repositories\ProductoRepositoryImpl.class
+jsf3\configurations\ProducerEntityManager.class
+jsf3\repositories\CategoriaRepositoryImpl.class
+jsf3\entities\Categoria.class
+jsf3\services\ProductoService.class
+jsf3\entities\Producto.class
+jsf3\converters\CategoriaConverter.class
+jsf3\controllers\LenguajeController.class
+jsf3\services\ProductoServiceImpl.class
+jsf3\configurations\ProducerResources.class
+jsf3\repositories\CrudRepository.class
+jsf3\controllers\ProductoController.class
