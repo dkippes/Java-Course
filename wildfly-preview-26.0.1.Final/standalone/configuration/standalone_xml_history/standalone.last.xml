@@ -127,21 +127,21 @@
         <subsystem xmlns="urn:jboss:domain:datasources:6.0">
             <datasources>
                 <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">
-                <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
-                <driver>h2</driver>
-                <security>
-                    <user-name>sa</user-name>
-                    <password>sa</password>
-                </security>
-            </datasource>
+                    <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
+                    <driver>h2</driver>
+                    <security>
+                        <user-name>sa</user-name>
+                        <password>sa</password>
+                    </security>
+                </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
-<driver name="mysql" module="com.mysql">
+                    <driver name="mysql" module="com.mysql">
                         <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
                         <xa-datasource-class>com.mysql.cj.jdbc.MysqlXADataSource</xa-datasource-class>
-</driver>
+                    </driver>
                 </drivers>
             </datasources>
         </subsystem>
@@ -525,6 +525,9 @@
         </deployment>
         <deployment name="webapp.war" runtime-name="webapp.war">
             <content sha1="59c6ff4f16b505fa73e446e6d7186669e2b8ccb0"/>
+        </deployment>
+        <deployment name="72.SOAP-JAX-WS-1.0-SNAPSHOT.war" runtime-name="72.SOAP-JAX-WS-1.0-SNAPSHOT.war">
+            <content sha1="31a62ceada7c498e03c1101a12e2c19af54dc1fc"/>
         </deployment>
     </deployments>
 </server>

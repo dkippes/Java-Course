@@ -1,0 +1,6 @@
+soap\repositories\CursoRepository.class
+soap\services\CursoServicioWs.class
+soap\ProducerEntityManager.class
+soap\services\CursoServicioWsImpl.class
+soap\repositories\CursoRepositoryImpl.class
+soap\models\Curso.class

@@ -1,0 +1,3 @@
+soap\services\ServicioWs.class
+soap\services\ServicioWsImpl.class
+soap\models\Curso.class

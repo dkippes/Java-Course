@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2dc7016-10de-4d52-b781-0134e1842ad3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jsf3/repositories/ProductoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsf3/controllers/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsf3/controllers/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsf3/repositories/ProductoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsf3/repositories/ProductoRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsf3/services/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsf3/services/ProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jsf3/services/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jsf3/services/ProductoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/main.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/form.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../wildfly-preview-26.0.1.Final/standalone/log/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646515357792</updated>
       <workItem from="1646515359017" duration="2627000" />
-      <workItem from="1646519218382" duration="1840000" />
+      <workItem from="1646519218382" duration="3247000" />
     </task>
     <servers />
   </component>
