@@ -3,7 +3,7 @@ package jaxRs.models;
 import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement // Para que se pueda convertir a XML
+//@XmlRootElement // Para que se pueda convertir a XML si usamos XML
 @Entity
 @Table(name = "cursos")
 public class Curso {

@@ -1,0 +1,7 @@
+jaxRs\services\CursoService.class
+jaxRs\repositories\CursoRepositoryImpl.class
+jaxRs\services\CursoServiceImpl.class
+jaxRs\repositories\CursoRepository.class
+jaxRs\controllers\CursoRestController.class
+jaxRs\models\Curso.class
+jaxRs\ProducerEntityManager.class
