@@ -28,6 +28,9 @@
                             <f:selectItems value="#{lenguajeController.lenguajesSoportados}"/>
                         </p:selectOneMenu>
 
+                        <p:menuitem value="Login" outcome="login" icon="pi pi-fw pi-sign-in" rendered="#{empty p:userPrincipal()}"/>
+                        <p:menuitem value="Logout" action="#{LogoutController.logout}" icon="pi pi-fw pi-sign-out" rendered="#{not empty p:userPrincipal()}"/>
+
                     </p:menuitem>
                 </p:menubar>
             </h:form>
